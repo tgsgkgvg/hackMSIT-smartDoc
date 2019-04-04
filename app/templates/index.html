@@ -1,0 +1,45 @@
+{% extends "layout.html" %}
+
+{% block head %}
+    {{ super() }}
+{% endblock %}
+
+{% block content %}
+
+<h1 class="ui header">{{title}}</h1>
+{% if current_user.is_authenticated %}
+
+<!Doctype html>
+<html>
+<body>
+
+	  <form action="/user/charge" method="post">
+    <article>
+      <label>
+      </label>
+    </article>
+
+    <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+
+            data-key="pk_test_TQmy1LFbeJ6tgZLOdzT4pZRh00mJ3yq97c"
+            data-description="A Flask Charge"
+            data-amount="1000"
+	    data-email="{{ email }}"
+            data-locale="auto"></script>
+            
+            
+            
+            </body>
+            </html>
+
+    
+  </form>
+  </body>
+  </html> 
+
+
+
+
+  	{% endif %}
+
+{% endblock %}
