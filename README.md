@@ -1,21 +1,4 @@
-# flaskSaas
 
-![License](http://img.shields.io/:license-mit-blue.svg)
-
-A fork of [Max Halford's](https://github.com/MaxHalford) [flask-boilerplate](https://github.com/MaxHalford/flask-boilerplate). I've noticed SaaS bootstraps/boilerplates being sold upwards of $1,000 per year and I think that's fucking ridiculous. This project will be my attempt to make a great starting point for your next big business as easy and efficent as possible.
-
-## Features
-
-- [x] User account sign up, sign in, password reset, all through asynchronous email confirmation.
-- [x] Form generation.
-- [x] Error handling.
-- [x] HTML macros and layout file.
-- [x] "Functional" file structure.
-- [x] Python 3.x compliant.
-- [x] Asynchronous AJAX calls.
-- [x] Administration panel.
-- [x] Logging.
-- [ ] Stripe subscriptions. (WIP)
 - [ ] RESTful API for payments.
 - [ ] Simple RESTful API to communicate with your app.
 
